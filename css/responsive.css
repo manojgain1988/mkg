@@ -1,0 +1,269 @@
+       /* For 768px devics */
+
+@media(max-width:768px){
+    .logo img {
+        width: 50px;
+        height: 26px;
+        margin-top: 20px;
+        margin-right: 10px;
+    }
+    
+    .logo h1 {
+        font-size: 16px;
+        margin-top: 27px;
+
+    }
+    .navmenu {
+        flex: 1;
+        text-align: left;
+        margin-left: 60px;
+        font-size: 18px;
+        padding: 2px;
+    }
+
+
+    /* hero part */
+
+  .hero-text{
+    margin-left: 50px;
+  }
+  .hero-text h1{
+    font-size: 40px;
+  }
+  .hero-text h2 {
+    font-size: 22px;
+    margin-left: -5px;
+    margin-top: -70px;
+    padding-bottom: 20px;
+}
+  .hero-part img {
+    width: 230px;
+    border-radius: 20%;
+    margin-right: 33px;
+    padding-top:20px;
+}
+.icon{
+    top:30%
+}
+
+/* about part */
+
+.about-part h1{
+    margin-top: -70px;
+}
+
+
+.about-part img {
+    width: 170px;
+    border-radius: 15%;
+    margin-left: 34px;
+    margin-top: 20px;
+}
+.about-text {
+    width:500px;
+    height: auto;
+    margin-top:16px;
+    margin-left:3px;    
+}
+.about-text p {
+    font-size: 17px;
+}
+
+/* learn Part */
+.learn-part h1 {
+    padding: 16px 0px;
+}
+.row .learn-text{
+    width: 220px;
+    height: 250px;
+    margin-left: 25px;
+}
+.learn-text h2{
+    font-size: 18px; 
+   padding-top: 20px;
+}
+.learn-text p{ 
+    font-size: 15px;
+}
+
+/* expart part */
+.expart-part h1{
+    padding: -50px;
+    margin-bottom: 10px;
+}
+.expart-text{
+    height: 180px;
+    width: 220px;
+    margin-bottom: 30px;
+    margin-right: 15px;
+    margin-left: 15px;
+ 
+    
+}
+.expart-text img{
+    width:40px;
+    margin-top:25px;
+    margin-left: 80px;
+   
+  
+}
+.expart-text h2{
+    margin-top:-25px;
+    font-weight: 400;
+    font-size: 20px;
+}
+.Skills-col{
+    flex-basis:45%;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+}
+
+.Skills-col h2{
+    margin-bottom:16px;
+    font-size: 20px;
+    
+  
+}
+.Skills-col p{
+    font-size: 16px;
+    font-weight: 300;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+.Skills-col li {
+    padding-top: 20px;
+}
+
+/* pricing part */
+
+.pricing-text{
+    width: 210px;
+    height: 360px;
+    margin-right: 20px;
+    padding-bottom: 10px;
+}
+
+.pricing-text h2{
+    width: 150px;
+    height: 28px;
+    padding-top:-15px;
+    font-size: 16px;
+}
+
+.pricing-text h4{
+    text-align: center;
+    margin-top: 6px;
+    font-size: 16px;
+    width: 150px;
+    margin-left: 30px;
+}
+
+.pricing-text a{
+    margin-left: 40px; 
+    font-size: 15px;
+}
+
+/* digital clock */
+
+h2 { 
+    padding-top: 85px;
+   
+}
+.clock {
+    font-size: 48px;
+    margin-left: 35px;
+    margin-top: 80px;
+    width: 690px;
+    padding: 35px;
+}
+.clock h1 {
+    margin-top: 2px;
+}
+
+/* coundown part */
+
+.time div{
+    margin:30px;
+    margin-left: 10px;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 20px;
+    
+}
+/* claculator part */
+
+.calculator{
+    width: 320px;
+    padding-top:15px;
+    margin-left: 25%;
+    margin-bottom: 5%;
+}
+.calculator h1{
+    font-size: 30px;
+    padding: 10px;
+} 
+#display{
+    height: 60px;
+    width: 85%;
+}
+
+
+/* age calculator */
+.input_box input {
+    font-size: 30px;
+    margin-left: 24px;
+}
+.age_calculator button {
+    width: 200px;
+    font-size: 18px;
+   margin-right: 20px;
+  
+}
+#result {
+    font-size: 24px;
+    margin-top: 60px;
+    margin-left: 0px;
+}
+.fotter_icon a {
+    height: 28px;
+    width: 28px;
+    top: 10px 10px 0;
+    font-size: 16px;
+} 
+}
+
+
+       /* For 400px devics */
+
+       @media(max-width:576px){
+
+        .navmenu ul{
+            background-color: rgb(175, 175, 175);
+            margin-top:65px;
+         
+            
+        }
+
+        .navmenu ul li{
+            width: 100%;
+            height: 5px;
+            position: relative;
+            left:0;
+            top: 12%;
+            /* display: none; */
+          
+        }
+
+        .togglebar {
+            font-size: 30px;
+            margin-top: 20px;
+            display: block;
+            margin-left: 300px;
+            color: #fff;
+        }
+       }
+
+
+
+
